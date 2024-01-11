@@ -160,6 +160,10 @@ body{
     .weather h2 {
         font-size: 30px; 
     }
+  .weather p{
+        font-size: 18px;
+        font-weight: 500;
+    }
 }
  
 
