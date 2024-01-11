@@ -105,3 +105,57 @@ body{
 .titile h1{
     font-size: 42px;
 }
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+        border-radius: 0; /* Adjust as needed */
+        padding: 20px; /* Adjust as needed */
+    }
+
+    .search {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .search input {
+        margin-bottom: 10px; /* Adjust as needed */
+        margin-right: 0;
+        
+    }
+
+    .search button {
+        width: auto; /* Allow the button to take its natural width */
+        margin-left: 10px; /* Add some spacing between input and button */
+        border-radius: 20;
+    }
+    .search button img{
+        width: 50%;
+    }
+
+    .error,
+    .weather {
+        font-size: 14px; /* Adjust as needed */
+    }
+
+    .details {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .col {
+        margin-bottom: 10px; /* Adjust as needed */
+    }
+
+    .col img {
+        width: 30px; /* Adjust as needed */
+    }
+
+    .weather h1 {
+        font-size: 50px; /* Adjust as needed */
+    }
+
+    .weather h2 {
+        font-size: 30px; /* Adjust as needed */
+    }
+}
+
